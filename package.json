@@ -1,0 +1,14 @@
+{
+  "name": "real-device-pipeline",
+  "version": "0.1.0",
+  "description": "Minimal Appium + BullMQ worker for real-device testing MVP",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.0.0",
+    "ioredis": "^5.0.0",
+    "webdriverio": "^8.0.0"
+  }
+}
